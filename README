@@ -1,1 +1,6 @@
 Solutions to FreeFlow (android game)
+
+The initial solution is a brute force method with some minor optimizations.
+Produces results in reasonable time for upto 8X8 grids. Takes extremely long
+for 9X9 grids and above, and this algorithm is not practical for such grids.
+Need to find a better algorithm/optimizations.
